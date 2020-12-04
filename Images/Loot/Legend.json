@@ -1,0 +1,615 @@
+{
+	"header" : {
+		"app":"RPG Map 2",
+		"appVersion":16.2,
+		"appAuthor":"Sebastien Benard",
+		"fileType":"JSON Map",
+		"fileVersion":10,
+		"url":"https://deepnight.net/tools/rpg-map/"
+	},
+	"version":10,
+	"w":20,
+	"h":20,
+	"skin":{
+		"base":{
+			"bg":2236722,
+			"appBg":1974055,
+			"shadows":855638016,
+			"stairs":-2000891435,
+			"walls":7223089,
+			"dirt":4080225,
+			"doors":16758374,
+			"windows":10084863,
+			"fences":9476511,
+			"furn":14397332,
+			"wallOutline":9146539,
+			"colorless":false
+		},
+		"plant1":6270751,
+		"plant2":6270751,
+		"water":6657005,
+		"specialWater1":16733696,
+		"specialWater2":9478433,
+		"teint":null,
+		"grid":{
+			"id":3,
+			"p":[
+				
+			]
+		},
+		"gridColor":0,
+		"gridIntensity":0.4,
+		"gridDepth":{
+			"id":0,
+			"p":[
+				
+			]
+		},
+		"fogColor":2433347,
+		"fogIntensity":0,
+		"seed":618559,
+		"printerFriendly":false,
+		"bubbleSkin":{
+			"id":0,
+			"p":[
+				
+			]
+		}
+	},
+	"furnDepth":{
+		"id":0,
+		"p":[
+			
+		]
+	},
+	"snapFurnToWalls":true,
+	"legend":{
+		"x":-1,
+		"y":3
+	},
+	"collisions":[
+		
+	],
+	"grounds":[
+		
+	],
+	"objects":[
+		{
+			"x":1,
+			"y":5,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":2,
+				"p":[
+					
+				]
+			},
+			"c":null
+		},
+		{
+			"x":1,
+			"y":13,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":3,
+				"p":[
+					
+				]
+			},
+			"c":null
+		},
+		{
+			"x":1,
+			"y":7,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":2,
+				"p":[
+					
+				]
+			},
+			"c":16772369
+		},
+		{
+			"x":1,
+			"y":9,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":2,
+				"p":[
+					
+				]
+			},
+			"c":2621439
+		},
+		{
+			"x":1,
+			"y":11,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":2,
+				"p":[
+					
+				]
+			},
+			"c":12650504
+		},
+		{
+			"x":12,
+			"y":11,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":8,
+				"p":[
+					
+				]
+			},
+			"c":null
+		},
+		{
+			"x":12,
+			"y":7,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":10,
+				"p":[
+					
+				]
+			},
+			"c":null
+		},
+		{
+			"x":12,
+			"y":5,
+			"w":1,
+			"h":1,
+			"t":{
+				"id":3,
+				"p":[
+					
+				]
+			},
+			"c":12650504
+		}
+	],
+	"labels":[
+		{
+			"x":4.299,
+			"y":5.525,
+			"s":"Door",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":6.004,
+			"y":7.531,
+			"s":"Locked Door",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":5.837,
+			"y":9.511,
+			"s":"Hidden Door",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":7.104,
+			"y":11.525,
+			"s":"Inaccessible Door",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":4.38,
+			"y":13.51,
+			"s":"Fence",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":15.48,
+			"y":5.577,
+			"s":"Trap",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":15.798,
+			"y":7.458,
+			"s":"Window",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":15.59,
+			"y":9.49,
+			"s":"Hatch",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":15.679,
+			"y":11.517,
+			"s":"Stairs",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":15.75,
+			"y":13.544,
+			"s":"Portal",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":9.475,
+			"y":3.565,
+			"s":"Legend",
+			"gm":false,
+			"font":{
+				"id":4,
+				"p":[
+					
+				]
+			},
+			"fontSize":{
+				"id":1,
+				"p":[
+					
+				]
+			},
+			"fontColor":16777215,
+			"display":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"bubbleGX":-1,
+			"bubbleGY":-1,
+			"outline":{
+				"id":0,
+				"p":[
+					
+				]
+			}
+		}
+	],
+	"icons":[
+		{
+			"x":12.531,
+			"y":9.548,
+			"icon":{
+				"id":0,
+				"p":[
+					"trap"
+				]
+			},
+			"ang":0,
+			"scale":1.822,
+			"filter":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"depth":{
+				"id":1,
+				"p":[
+					
+				]
+			}
+		},
+		{
+			"x":12.614,
+			"y":13.573,
+			"icon":{
+				"id":1,
+				"p":[
+					0
+				]
+			},
+			"ang":0,
+			"scale":1,
+			"filter":{
+				"id":0,
+				"p":[
+					
+				]
+			},
+			"depth":{
+				"id":1,
+				"p":[
+					
+				]
+			}
+		}
+	],
+	"lights":[
+		
+	],
+	"mobs":[
+		
+	],
+	"pools":[
+		
+	],
+	"imageLib":{
+		"images":[
+			{
+				"uid":0,
+				"path":"UG9ydGFsLnBuZw==",
+				"b64":"iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABsUlEQVRYR+1XsVHEMBD0z5iABhy4AAIKcEADJLRDQAUEtENCAwQugIAC3AIBnjFzml/N+izJJ1k/n/DJy/7T7d7e6U5/ao59lvP2U6mb0o0O+Pbt3uH+PH8BP9ufZQOi9EH2fe/W0zS5b/2s1Ehi7BFY4LxU4jPJKE6KgAdHpExCE0vZpEjsEpDNbdtuBJjneSV9yqaEwCp6OL95vVsRQfGhGPHj78u3W2qSTdNsAo4p4Ahw9Bp8ryY0iZgKJgIM/vTw6LHfPz/cOvRO3gsJqFCFAIA0cOwZKnRdhyNblgIoIAQAFksB21ycgFYE6QDJKinglsvRcd7FhtOANU4JCjr7FKDd4phxxJqMgGpFhIBq03k1AALSB3QdxAiE5Ke5YSfAk44bEYBTBLgHqIlpJ8DSXUUBJnC1GsCEYwKhag+lgy8qxacAsyDUiCzHsEofCOU/NYh0J7zILACB0DDiplRNAXGqx3EsBbE7waFpCKfWOwH6AF9KqhDg3GsyDMp2h2tg7+Zj+b34GFqcW22sKdj8CbECZNr5maCHwzIMQ6avPPNxHGXDP4G4AnmCFlt7An9DpbIwIYGAZQAAAABJRU5ErkJgggAA"
+			}
+		]
+	}
+}
