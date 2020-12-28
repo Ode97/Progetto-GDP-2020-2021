@@ -121,6 +121,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13801722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13801723}
+  m_Layer: 5
+  m_Name: Beasts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &13801723
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13801722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 951340243}
+  - {fileID: 973073226}
+  - {fileID: 652151916}
+  - {fileID: 17727292}
+  - {fileID: 2139293349}
+  - {fileID: 2018751027}
+  - {fileID: 303409162}
+  m_Father: {fileID: 573585425}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &17727291
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,13 +188,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17727291}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1533609499}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 6
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -757,12 +799,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303409159}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 9
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -781,7 +823,7 @@ GameObject:
   - component: {fileID: 411058881}
   - component: {fileID: 411058880}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: DialogView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1095,13 +1137,7 @@ RectTransform:
   - {fileID: 825812986}
   - {fileID: 411058879}
   - {fileID: 1689885346}
-  - {fileID: 951340243}
-  - {fileID: 973073226}
-  - {fileID: 652151916}
-  - {fileID: 17727292}
-  - {fileID: 2139293349}
-  - {fileID: 2018751027}
-  - {fileID: 303409162}
+  - {fileID: 13801723}
   m_Father: {fileID: 195716919}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1466,13 +1502,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652151915}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1300756574}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 5
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1997,13 +2033,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951340242}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1899601272}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 3
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2072,13 +2108,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973073225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1634913506}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 4
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2428,7 +2464,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 16.999634, y: 54.124836}
+  m_SizeDelta: {x: 16.999634, y: 52.83304}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1087389883
 MonoBehaviour:
@@ -2443,12 +2479,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Left: 10
+    m_Right: 10
+    m_Top: 10
+    m_Bottom: 10
   m_ChildAlignment: 4
-  m_Spacing: 0
+  m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -2492,7 +2528,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 1345.191
+  m_PreferredWidth: 1330
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -2983,7 +3019,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -3097,7 +3133,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -3466,7 +3502,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -3636,7 +3672,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -3744,7 +3780,7 @@ GameObject:
   - component: {fileID: 1689885348}
   - component: {fileID: 1689885347}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: ButtonsView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3770,7 +3806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0092163, y: -358.22}
+  m_AnchoredPosition: {x: 0.009033203, y: -358.2201}
   m_SizeDelta: {x: 0.018676758, y: -716.40796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689885347
@@ -3881,14 +3917,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Chimaera: "The Chimaera is here to challenge your brain, answer correctly and
-    I will clear the way. Answer wrong and my anger will throw you away. Here is
-    the first riddle: They have certainly accompanied you on your travel, but if
-    you have not tasted the true suffering, your eyes will not be able to unravel"'
-  - 'Chimaera: "here is the second riddle: Weird hair, many tears ,it always cries,
-    but it saves you many times"ears ,it always cries, but it saves you many times"'
-  - 'Chimaera: "here is the third riddle: It can attack you, it has no arms or legs,
-    but you put it anyway in your bag."'
+  - '<color=purple>Chimaera</color>: "The Chimaera is here to challenge your brain,
+    answer correctly and I will clear the way. Answer wrong and my anger will throw
+    you away. Here is the first riddle: They have certainly accompanied you on your
+    travel, but if you have not tasted the true suffering, your eyes will not be
+    able to unravel"'
+  - '<color=purple>Chimaera</color>: "here is the second riddle: Weird hair, many
+    tears ,it always cries, but it saves you many times"ears ,it always cries, but
+    it saves you many times"'
+  - '<color=purple>Chimaera</color>: "here is the third riddle: It can attack you,
+    it has no arms or legs, but you put it anyway in your bag."'
   answers:
   - 3
   - Boggart
@@ -3896,23 +3934,25 @@ MonoBehaviour:
   - Thestral
   - Mourning
   - INT
-  - 'Minerva: mmh, if I remember correctly from a lesson of Care of Magical Creatures
-    they could be the horses that transport the carriages of Hogwarts... '
+  - <color=green>*Minerva*</color> <i>mmh, if I remember correctly from a lesson
+    of Care of Magical Creatures they could be the horses that transport the carriages
+    of Hogwarts...</i>
   - 2
   - Baby
   - Mandrake
   - Domestic Elf
   - Whomping Willow
   - DEX
-  - "Minerva: tears, cries\u2026 that reminds me of the second year of herbology."
+  - "<color=green>*Minerva*</color> <i>tears, cries\u2026 that reminds me of the
+    second year of herbology.</i>"
   - 4
   - Magic Wand
   - Explosive Potion
   - Snake
   - Monster Book
   - WIS
-  - 'Minerva: It can be put in the bag, maybe it''s a school item? During the third
-    year there was something that bit me...'
+  - <color=green>*Minerva*</color> <i>It can be put in the bag, maybe it's a school
+    item? During the third year there was something that bit me...</i>
   text: {fileID: 1981418474}
   buttons:
   - {fileID: 907135810}
@@ -3927,6 +3967,7 @@ MonoBehaviour:
   - {fileID: 1533609498}
   - {fileID: 1251686515}
   - {fileID: 303409159}
+  scrollRect: {fileID: 1766420508}
 --- !u!1 &1766420506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4178,7 +4219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: -16.320007}
+  m_AnchoredPosition: {x: -0.00012207031, y: -16.320084}
   m_SizeDelta: {x: 94.04115, y: 109.11948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899601273
@@ -4204,7 +4245,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -4334,8 +4375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 672.5955, y: -27.062418}
-  m_SizeDelta: {x: 1345.191, y: 54.124836}
+  m_AnchoredPosition: {x: 672.5955, y: -26.41652}
+  m_SizeDelta: {x: 1345.191, y: 52.83304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981418474
 MonoBehaviour:
@@ -4567,13 +4608,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018751026}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2114031400}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 8
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4844,7 +4885,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 0
@@ -4887,13 +4928,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139293348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1251686516}
-  m_Father: {fileID: 573585425}
-  m_RootOrder: 7
+  m_Father: {fileID: 13801723}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

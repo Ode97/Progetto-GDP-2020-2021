@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,13 +7,15 @@ using UnityEngine.UI;
 public class Dialogues : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField]private List<string> dialogue;
-    [SerializeField]private List<string> answers;
-    [SerializeField]private Text text;
+    [SerializeField] private List<string> dialogue;
+    [SerializeField] private List<string> answers;
+    [SerializeField] private Text text;
 
-    [SerializeField]private Button[] buttons;
+    [SerializeField] private Button[] buttons;
 
-    [SerializeField]private List<GameObject> beasts;
+    [SerializeField] private List<GameObject> beasts;
+
+    [SerializeField] private ScrollRect scrollRect;
 
     private LevelManagerChimaera levelManagerChimaera;
     private string correctAnswer;
@@ -28,11 +31,12 @@ public class Dialogues : MonoBehaviour
             {
                 b.gameObject.SetActive(false);
             }
-            beasts[0].SetActive(true);
+            beasts[beasts.Count - 1].SetActive(true);
             return;
         }
-        text.text += dialogue[0] + "\n\n";
+        UpdateText(dialogue[0]);
         dialogue.RemoveAt(0);
+        ScrollDown();
         Answers();
         
         switch(answers[0])
@@ -50,7 +54,8 @@ public class Dialogues : MonoBehaviour
                 SkillCheck(levelManagerChimaera.actualStats.wisdom, 16);
                 break;
         }
-            
+
+        ScrollDown();
     }
 
     private void SkillCheck(int val, int threshold)
@@ -58,13 +63,13 @@ public class Dialogues : MonoBehaviour
             answers.RemoveAt(0);
             if(val >= threshold)
             {
-                text.text += answers[0] + "\n\n";
+                UpdateText(answers[0]);
             }
             answers.RemoveAt(0);
         
     }
 
-    public void Answers(){
+    private void Answers(){
         correctAnswer = answers[0];
         answers.RemoveAt(0);
         foreach (Button b in buttons)
@@ -77,15 +82,28 @@ public class Dialogues : MonoBehaviour
 
     public void CheckAnswer(string s)
     {
+        UpdateText("<color=green>Minerva</color>: " + buttons[Convert.ToInt32(s) - 1].GetComponentInChildren<Text>().text);
         if(s == correctAnswer){
-            text.text += "Chimaera: Correct Answer\n\n";
+            UpdateText("<color=purple>Chimaera</color>: Correct Answer");
             beasts[0].SetActive(true);
             beasts.RemoveAt(0);
             beasts[0].SetActive(true);
             beasts.RemoveAt(0);
         }else
-            text.text += "Chimaera: Wrong Answer\n\n";
+            UpdateText("<color=purple>Chimaera</color>: Wrong Answer");
 
         ReadNextLine();   
+    }
+
+    private void UpdateText(string s)
+    {
+        text.text += s + "\n\n";
+    }
+    
+    private void ScrollDown()
+    {
+        Canvas.ForceUpdateCanvases();
+        scrollRect.verticalNormalizedPosition = 0f;
+        Canvas.ForceUpdateCanvases();
     }
 }
