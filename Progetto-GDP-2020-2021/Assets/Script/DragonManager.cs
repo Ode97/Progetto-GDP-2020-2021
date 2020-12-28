@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+
 public class DragonManager : MonoBehaviour
 {
 
-    [SerializeField] private LevelManager levelManager;
+    [FormerlySerializedAs("levelManager")] [SerializeField] private StatueColors statueColors;
     [SerializeField] private DragonManager[] dragons;
     private MeshRenderer meshRenderer;
     private bool on = false;
@@ -24,15 +26,16 @@ public class DragonManager : MonoBehaviour
        {
            dm.ChangeColor();
        }
-       levelManager.enigmaChecker.WinnerCheck();
+       EventManager.TriggerEvent("OnStatueChange");
+       //levelManager.enigmaChecker.WinnerCheck();
     }       
 
     public void ChangeColor(){
         on = !on;
         if (on)
-            meshRenderer.material.color = levelManager.on;
+            meshRenderer.material.color = statueColors.on;
         else    
-            meshRenderer.material.color = levelManager.off;
+            meshRenderer.material.color = statueColors.off;
 
     }
 }

@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "LevelManager", menuName = "Manager/LevelManager", order = 1)]
-public class LevelManager : ScriptableObject
+public class StatueColors : ScriptableObject
 
 {
-
-    public EnigmaChecker enigmaChecker;
     public Color on;
     public Color off;
 }

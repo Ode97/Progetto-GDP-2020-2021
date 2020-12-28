@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class EnigmaChecker : MonoBehaviour
 {
     [SerializeField] private DragonManager[] dragonManager;
-    [SerializeField] private LevelManager levelManager;
+    [FormerlySerializedAs("levelManager")] [SerializeField] private StatueColors statueColors;
     [SerializeField] private Text text;
 
     void Start(){
-        levelManager.enigmaChecker = this;
+        //levelManager.enigmaChecker = this;
+        EventManager.StartListening("OnStatueChange", WinnerCheck);
     }
     public void WinnerCheck()
     {
