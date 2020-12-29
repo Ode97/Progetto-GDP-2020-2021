@@ -198,8 +198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -807, y: -138}
-  m_SizeDelta: {x: 152.20331, y: 141.75772}
+  m_AnchoredPosition: {x: -819.1, y: -125}
+  m_SizeDelta: {x: 112.76337, y: 122.03772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &17727293
 MonoBehaviour:
@@ -274,7 +274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500, y: 157.00002}
+  m_AnchoredPosition: {x: 496, y: 72.01802}
   m_SizeDelta: {x: 317.3058, y: 157.77112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141856355
@@ -514,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 383}
+  m_AnchoredPosition: {x: 0, y: 343}
   m_SizeDelta: {x: -849.94037, y: -922.1482}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176037066
@@ -921,7 +921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -141.018}
+  m_AnchoredPosition: {x: -4, y: -185}
   m_SizeDelta: {x: -1509.5957, y: -745.90564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460690577
@@ -1219,7 +1219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 157.00002}
+  m_AnchoredPosition: {x: -4, y: 72.01802}
   m_SizeDelta: {x: 317.3058, y: 157.77112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &591261661
@@ -1512,7 +1512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -807, y: 26}
+  m_AnchoredPosition: {x: -807, y: 73.41998}
   m_SizeDelta: {x: 152.20331, y: 141.75772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &652151917
@@ -1586,7 +1586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 500.00006, y: -141.018}
+  m_AnchoredPosition: {x: 496, y: -185}
   m_SizeDelta: {x: -1509.5957, y: -745.90564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741249016
@@ -1698,7 +1698,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 073244a5f9b2fa7419c84a7d2d08ec54, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -2043,7 +2043,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -807, y: 193.58}
+  m_AnchoredPosition: {x: -807, y: 241}
   m_SizeDelta: {x: 152.20331, y: 141.75772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951340244
@@ -2118,7 +2118,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 807, y: 193.58}
+  m_AnchoredPosition: {x: 822, y: 240.99998}
   m_SizeDelta: {x: 152.20331, y: 141.75772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973073227
@@ -2464,7 +2464,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 16.999634, y: 52.83304}
+  m_SizeDelta: {x: 1.8085938, y: 76}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1087389883
 MonoBehaviour:
@@ -2567,11 +2567,11 @@ RectTransform:
   m_Father: {fileID: 195716919}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 817.54, y: 480.83}
-  m_SizeDelta: {x: 285.05902, y: 118.2657}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 120}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1109599972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2697,7 +2697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -500, y: -141}
+  m_AnchoredPosition: {x: -504, y: -184.982}
   m_SizeDelta: {x: -1509.5957, y: -745.86914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203913262
@@ -3917,16 +3917,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - '<color=purple>Chimaera</color>: "The Chimaera is here to challenge your brain,
-    answer correctly and I will clear the way. Answer wrong and my anger will throw
-    you away. Here is the first riddle: They have certainly accompanied you on your
-    travel, but if you have not tasted the true suffering, your eyes will not be
-    able to unravel"'
-  - '<color=purple>Chimaera</color>: "here is the second riddle: Weird hair, many
-    tears ,it always cries, but it saves you many times"ears ,it always cries, but
-    it saves you many times"'
-  - '<color=purple>Chimaera</color>: "here is the third riddle: It can attack you,
-    it has no arms or legs, but you put it anyway in your bag."'
+  - '<color=purple><b>Chimaera</b></color>: "The Chimaera is here to challenge your
+    brain, answer correctly and I will clear the way. Answer wrong and my anger will
+    throw you away. Here is the first riddle: They have certainly accompanied you
+    on your travel, but if you have not tasted the true suffering, your eyes will
+    not be able to unravel"'
+  - '<color=purple><b>Chimaera</b></color>: "here is the second riddle: Weird hair,
+    many tears ,it always cries, but it saves you many times"ears ,it always cries,
+    but it saves you many times"'
+  - '<color=purple><b>Chimaera</b></color>: "here is the third riddle: It can attack
+    you, it has no arms or legs, but you put it anyway in your bag."'
   answers:
   - 3
   - Boggart
@@ -3934,25 +3934,25 @@ MonoBehaviour:
   - Thestral
   - Mourning
   - INT
-  - <color=green>*Minerva*</color> <i>mmh, if I remember correctly from a lesson
-    of Care of Magical Creatures they could be the horses that transport the carriages
-    of Hogwarts...</i>
+  - <color=green><b>*Minerva*</b></color> <i>mmh, if I remember correctly from a
+    lesson of Care of Magical Creatures they could be the horses that transport the
+    carriages of Hogwarts...</i>
   - 2
   - Baby
   - Mandrake
   - Domestic Elf
   - Whomping Willow
   - DEX
-  - "<color=green>*Minerva*</color> <i>tears, cries\u2026 that reminds me of the
-    second year of herbology.</i>"
+  - "<color=green><b>*Minerva*</b></color> <i>tears, cries\u2026 that reminds me
+    of the second year of herbology.</i>"
   - 4
   - Magic Wand
   - Explosive Potion
   - Snake
   - Monster Book
   - WIS
-  - <color=green>*Minerva*</color> <i>It can be put in the bag, maybe it's a school
-    item? During the third year there was something that bit me...</i>
+  - <color=green><b>*Minerva*</b></color> <i>It can be put in the bag, maybe it's
+    a school item? During the third year there was something that bit me...</i>
   text: {fileID: 1981418474}
   buttons:
   - {fileID: 907135810}
@@ -4375,8 +4375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 672.5955, y: -26.41652}
-  m_SizeDelta: {x: 1345.191, y: 52.83304}
+  m_AnchoredPosition: {x: 665, y: -38}
+  m_SizeDelta: {x: 1310, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981418474
 MonoBehaviour:
@@ -4455,7 +4455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: 157}
+  m_AnchoredPosition: {x: -504, y: 72.018005}
   m_SizeDelta: {x: 317.3058, y: 157.77112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990095060
@@ -4618,7 +4618,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 807, y: 3.7577}
+  m_AnchoredPosition: {x: 822, y: 51.17768}
   m_SizeDelta: {x: 152.20331, y: 141.75772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018751028
@@ -4938,8 +4938,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 807, y: -165}
-  m_SizeDelta: {x: 152.20331, y: 141.75772}
+  m_AnchoredPosition: {x: 810.56, y: -129.44}
+  m_SizeDelta: {x: 129.32489, y: 113.15961}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139293350
 MonoBehaviour:

@@ -82,15 +82,15 @@ public class Dialogues : MonoBehaviour
 
     public void CheckAnswer(string s)
     {
-        UpdateText("<color=green>Minerva</color>: " + buttons[Convert.ToInt32(s) - 1].GetComponentInChildren<Text>().text);
+        UpdateText("<color=green><b>Minerva</b></color>: " + buttons[Convert.ToInt32(s) - 1].GetComponentInChildren<Text>().text);
         if(s == correctAnswer){
-            UpdateText("<color=purple>Chimaera</color>: Correct Answer");
+            UpdateText("<color=purple><b>Chimaera</b></color>: Correct Answer");
             beasts[0].SetActive(true);
             beasts.RemoveAt(0);
             beasts[0].SetActive(true);
             beasts.RemoveAt(0);
         }else
-            UpdateText("<color=purple>Chimaera</color>: Wrong Answer");
+            UpdateText("<color=purple><b>Chimaera</b></color>: Wrong Answer");
 
         ReadNextLine();   
     }

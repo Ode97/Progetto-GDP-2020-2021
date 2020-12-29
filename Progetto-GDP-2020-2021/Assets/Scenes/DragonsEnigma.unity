@@ -254,8 +254,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5bf57db82a42fa14aba2dfa1f0abfd3e, type: 3}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: 073244a5f9b2fa7419c84a7d2d08ec54, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1dbe43bd37ff141841e48f5e648dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   dragons:
   - {fileID: 960177342}
   - {fileID: 1861873603}
@@ -424,8 +424,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_Font: {fileID: 12800000, guid: 073244a5f9b2fa7419c84a7d2d08ec54, type: 3}
+    m_FontSize: 85
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -594,7 +594,7 @@ MonoBehaviour:
   - {fileID: 1397439153}
   - {fileID: 356573822}
   - {fileID: 1667131302}
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   text: {fileID: 675248395}
 --- !u!114 &705990082
 MonoBehaviour:
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1dbe43bd37ff141841e48f5e648dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   dragons:
   - {fileID: 960177342}
   - {fileID: 1861873603}
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1dbe43bd37ff141841e48f5e648dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   dragons:
   - {fileID: 960177342}
   - {fileID: 1861873603}
@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1dbe43bd37ff141841e48f5e648dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   dragons:
   - {fileID: 1861873603}
   - {fileID: 1397439153}
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1dbe43bd37ff141841e48f5e648dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
+  statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
   dragons:
   - {fileID: 1861873603}
 --- !u!1 &1979294265
@@ -1397,8 +1397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150.37, y: 862}
-  m_SizeDelta: {x: 271.82593, y: 125.854706}
+  m_AnchoredPosition: {x: 136.29, y: 866.7}
+  m_SizeDelta: {x: 300, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979294267
 MonoBehaviour:
