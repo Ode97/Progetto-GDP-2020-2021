@@ -14,7 +14,6 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Entered " + other.name);
         if (other.CompareTag("Player"))
         {
             other.transform.position = _destination;

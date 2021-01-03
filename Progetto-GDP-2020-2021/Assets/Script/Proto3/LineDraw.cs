@@ -25,7 +25,7 @@ public class LineDraw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hitData;
 
         if(Physics.Raycast(ray, out hitData, 1000, layerMask))
