@@ -70,6 +70,7 @@ public class SpellCast : MonoBehaviour
         if (!Physics.Linecast(_lineDraw.GetFirstPosition(), _lineDraw.GetLastPosition(), LayerMaskWithObstacles)) return;
         go.SetActive(false);
         preview.SetActive(false);
+        EventManager.TriggerEvent("startNiagara");
     }
 
     private void Lift(GameObject go)

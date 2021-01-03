@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - Box
+  - Chicken
   layers:
   - Default
   - TransparentFX

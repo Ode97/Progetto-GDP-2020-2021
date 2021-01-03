@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Pietrificus : MonoBehaviour
 {
-
+    [SerializeField] private GameObject collectable;
     private bool castSpell = false;
 
     public bool CastSpell
@@ -15,9 +15,10 @@ public class Pietrificus : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (castSpell && other.CompareTag("Box"))
+        if (castSpell && other.CompareTag("Chicken"))
         {
             other.GetComponent<Animator>().speed = 0;
+            collectable.SetActive(true);
         }
     }
 }

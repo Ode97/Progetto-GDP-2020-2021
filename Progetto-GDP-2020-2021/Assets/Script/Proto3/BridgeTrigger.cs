@@ -19,7 +19,7 @@ public class BridgeTrigger : MonoBehaviour
                 objectToActivate.SetActive(true);
                 if (destroyOnPlace)
                 {
-                    if(tag!="Player")
+                    if (tag!="Player")
                         Destroy(other.gameObject);
                     Destroy(this);
                 }
@@ -34,11 +34,6 @@ public class BridgeTrigger : MonoBehaviour
                 objectToActivate.SetActive(false);
             }
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(other.name);
     }
 
     private void OnTriggerExit(Collider other)
