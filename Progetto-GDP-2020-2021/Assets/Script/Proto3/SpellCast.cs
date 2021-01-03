@@ -36,8 +36,6 @@ public class SpellCast : MonoBehaviour
 
     private void Update()
     {
-
-
         if (preview.activeSelf && !_holdingItem) {
             if (!Input.GetButton("Fire1")) return;
             Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
@@ -68,6 +66,7 @@ public class SpellCast : MonoBehaviour
 
     private void Unlock(GameObject go)
     {
+        if (!Physics.Linecast(_lineDraw.GetFirstPosition(), _lineDraw.GetLastPosition(), LayerMaskWithObstacles)) return;
         go.SetActive(false);
         preview.SetActive(false);
     }
