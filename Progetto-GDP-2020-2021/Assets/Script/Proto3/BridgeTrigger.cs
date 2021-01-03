@@ -8,17 +8,19 @@ public class BridgeTrigger : MonoBehaviour
     [SerializeField] private GameObject objectToActivate;
     [SerializeField] private bool destroyOnPlace = false;
     [SerializeField] private GameObject next;
+    [SerializeField] string tag = "Box";
     
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Box"))
+        if (other.CompareTag(tag))
         {
             if (!other.GetComponent<ObjectProperties>().hold)
             {
                 objectToActivate.SetActive(true);
                 if (destroyOnPlace)
                 {
-                    Destroy(other.gameObject);
+                    if(tag!="Player")
+                        Destroy(other.gameObject);
                     Destroy(this);
                 }
 
@@ -34,9 +36,14 @@ public class BridgeTrigger : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.name);
+    }
+
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Box"))
+        if (other.CompareTag(tag))
         {
             objectToActivate.SetActive(false);
         }
