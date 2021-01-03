@@ -59,6 +59,7 @@ public class SpellCast : MonoBehaviour
             pos.y = _holdingItem.transform.position.y;
             _holdingItem.transform.position = pos;
             if (!Input.GetButton("Fire1")) return;
+            _holdingItem.GetComponent<ObjectProperties>().hold = false;
             _holdingItem = null;
             preview.SetActive(false);
         }
@@ -78,6 +79,7 @@ public class SpellCast : MonoBehaviour
         if (hitData.transform.gameObject == go)
         {
             _holdingItem = go;
+            _holdingItem.GetComponent<ObjectProperties>().hold = true;
         }
     }
 }
