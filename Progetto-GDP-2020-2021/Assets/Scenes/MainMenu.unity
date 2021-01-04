@@ -155,9 +155,9 @@ RectTransform:
   - {fileID: 1238594337}
   - {fileID: 777219255}
   - {fileID: 2075647581}
+  - {fileID: 1547261942}
   - {fileID: 2099863854}
   - {fileID: 343094748}
-  - {fileID: 1547261942}
   m_Father: {fileID: 1468177869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -546,7 +546,7 @@ RectTransform:
   - {fileID: 227578480}
   - {fileID: 1183039770}
   m_Father: {fileID: 102827724}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1338,7 +1338,12 @@ MonoBehaviour:
     <b>Chimaera''s
     Dialogue:</b> You need to choose the right answers to destroy the statue before
     the final battle against the Chimaera.  According to the Minerva build that you
-    choose, Minerva can give you some additional hint to solve the enigma.'
+    choose, Minerva can give you some additional hint to solve the enigma.
+
+
+    <b>Room
+    2:</b> WASD to move, mouse click to interact with spell and interactable object,
+    resolve the puzzle room to complete the level.'
 --- !u!222 &1303692344
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1623,7 +1628,7 @@ RectTransform:
   m_Children:
   - {fileID: 784015391}
   m_Father: {fileID: 102827724}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2079,7 +2084,7 @@ RectTransform:
   m_Children:
   - {fileID: 1235078927}
   m_Father: {fileID: 102827724}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
