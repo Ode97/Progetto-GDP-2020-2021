@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chimera'sDialogue.unity
     guid: d00bb5287a9507247973c7b7cd4d3cd9
+  - enabled: 1
+    path: Assets/Scenes/Room2.unity
+    guid: bd656465cb1d8144d8fa36603b0a4d7f
   m_configObjects: {}

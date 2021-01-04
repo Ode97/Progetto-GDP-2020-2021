@@ -6,6 +6,7 @@ public class Waterfall : MonoBehaviour
 {
     [SerializeField] private GameObject door;
     [SerializeField] private GameObject[] gos;
+    [SerializeField] private GameObject water;
     
     void Start()
     {
@@ -19,6 +20,7 @@ public class Waterfall : MonoBehaviour
             foreach (var go in gos)
             {
                 go.SetActive(!go.activeSelf);
+                water.SetActive(false);
             }
             EventManager.StopListening("startNiagara", StartNiagara);
         }
