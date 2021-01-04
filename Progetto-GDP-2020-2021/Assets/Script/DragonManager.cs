@@ -7,7 +7,9 @@ public class DragonManager : MonoBehaviour
 {
 
     [FormerlySerializedAs("levelManager")] [SerializeField] private StatueColors statueColors;
-    [SerializeField] private DragonManager[] dragons;
+    [SerializeField] private DragonManager[] dragons_on;
+    [SerializeField] private DragonManager[] dragons_off;
+
     private MeshRenderer meshRenderer;
     private bool on = false;
 
@@ -22,10 +24,17 @@ public class DragonManager : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
     }
     void OnMouseDown(){
-       foreach (DragonManager dm in dragons)
-       {
-           dm.ChangeColor();
-       }
+        if(on)
+            foreach (DragonManager dm in dragons_on)
+            {
+               dm.ChangeColor();
+            }
+        else{
+            foreach (DragonManager dm in dragons_off)
+            {
+               dm.ChangeColor();
+            }
+        }
        EventManager.TriggerEvent("OnStatueChange");
        //levelManager.enigmaChecker.WinnerCheck();
     }       

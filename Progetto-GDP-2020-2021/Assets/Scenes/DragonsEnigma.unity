@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons:
-  - {fileID: 960177342}
+  dragons_on: []
+  dragons_off:
   - {fileID: 1861873603}
   - {fileID: 356573822}
 --- !u!1 &675248394
@@ -783,9 +783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons:
+  dragons_on: []
+  dragons_off:
   - {fileID: 960177342}
-  - {fileID: 1861873603}
   - {fileID: 1397439153}
 --- !u!1 &963194225
 GameObject:
@@ -1043,10 +1043,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons:
-  - {fileID: 960177342}
-  - {fileID: 1861873603}
+  dragons_on: []
+  dragons_off:
   - {fileID: 1397439153}
+  - {fileID: 356573822}
 --- !u!1 &1537501803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,9 +1247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons:
-  - {fileID: 1861873603}
-  - {fileID: 1397439153}
+  dragons_on: []
+  dragons_off:
+  - {fileID: 960177342}
   - {fileID: 1667131302}
 --- !u!1 &1861873598
 GameObject:
@@ -1358,8 +1358,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons:
+  dragons_on: []
+  dragons_off:
   - {fileID: 1861873603}
+  - {fileID: 1667131302}
 --- !u!1 &1979294265
 GameObject:
   m_ObjectHideFlags: 0
