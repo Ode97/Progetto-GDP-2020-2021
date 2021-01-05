@@ -148,12 +148,11 @@ RectTransform:
   m_GameObject: {fileID: 78417392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87502, y: 0.8875, z: 1}
   m_Children:
   - {fileID: 675248397}
-  - {fileID: 1979294266}
   m_Father: {fileID: 705990085}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -382,9 +381,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons_on: []
+  dragons_on:
+  - {fileID: 356573822}
   dragons_off:
-  - {fileID: 1861873603}
   - {fileID: 356573822}
 --- !u!1 &675248394
 GameObject:
@@ -667,6 +666,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1771758161}
   - {fileID: 78417393}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -783,10 +783,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons_on: []
+  dragons_on:
+  - {fileID: 960177342}
+  - {fileID: 1397439153}
   dragons_off:
   - {fileID: 960177342}
   - {fileID: 1397439153}
+  - {fileID: 356573822}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,10 +1046,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons_on: []
+  dragons_on:
+  - {fileID: 1861873603}
+  - {fileID: 1397439153}
+  - {fileID: 356573822}
   dragons_off:
   - {fileID: 1397439153}
   - {fileID: 356573822}
+  - {fileID: 1667131302}
 --- !u!1 &1537501803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,10 +1254,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons_on: []
+  dragons_on:
+  - {fileID: 356573822}
+  - {fileID: 1667131302}
   dragons_off:
   - {fileID: 960177342}
   - {fileID: 1667131302}
+--- !u!1 &1771758160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771758161}
+  - component: {fileID: 1771758163}
+  - component: {fileID: 1771758162}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1771758161
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771758160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1979294266}
+  m_Father: {fileID: 705990085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 713.1018, y: -118.273315}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1771758162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771758160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1771758163
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771758160}
+  m_CullTransparentMesh: 0
 --- !u!1 &1861873598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,10 +1442,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueColors: {fileID: 11400000, guid: b3c0088ce33a65448af85a6f79486fc7, type: 2}
-  dragons_on: []
+  dragons_on:
+  - {fileID: 1861873603}
   dragons_off:
   - {fileID: 1861873603}
-  - {fileID: 1667131302}
 --- !u!1 &1979294265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,19 +1473,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979294265}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 208335811}
-  m_Father: {fileID: 78417393}
-  m_RootOrder: 1
+  m_Father: {fileID: 1771758161}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.29, y: 866.7}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 300, y: 120}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1979294267
 MonoBehaviour:
   m_ObjectHideFlags: 0
